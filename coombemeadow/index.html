@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="Coombe Meadow Cabin. Ashburton. This unique cabin has a wood burner, super king or twin beds. Artic bedding, electric blankets,
+                    4 hot water bottles and throws. A kitchenette, with a microwave, small fridge, sink, double gas camping hob with grill, kettle and toaster. 
+                    Tastefully decorated with antiques. Attached is a private hot shower, composting toilet and fire pit. Book through Air BnB">
+    <meta name="author" content="Gavin Brown gavinbrown.info">
+    <title>Coombe Meadow Cabin</title>
+    <!-- bootstrap css & custom css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css">
+    <link rel="canonical" href="https://example.com"/> <!--PUT ACTUAL ADDRESS IN HERE WHEN KNOWN -->
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+</head>
+<header class="mb-3">
+    
+<nav class="glass-nav" aria-label="Primary navigation">
+        <a class="glass-nav-brand f-roboto-mono" href="index.html">Coombe Meadow Cabin</a>
+        <input class="glass-nav-menu-toggle" type="checkbox" id="nav-toggle" aria-hidden="true">
+        <label class="glass-nav-menu-button" for="nav-toggle" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <ul class="glass-nav-links">
+            <li><a class="f-roboto-mono active" aria-current="page" href="index.html">Home</a></li>
+            <li><a class="f-roboto-mono" href="gallery.html">Gallery</a></li>
+            <li><a class="f-roboto-mono" href="#book">Book</a></li>
+        </ul>
+    </nav>
+</header>
+<body class="web-width">
+    <main role="main">
+    <div class="min-height d-flex justify-content-center align-items-center">
+        <div class="w-100">
+            <div class="row m-0 py-3 row-style top-style">
+        <div class="col-12 col-xxl-4 p-1 rounded-3 div-height d-flex justify-content-center">
+            <img src="assets/img/gallery/639A8071.webp" alt="homepage image 1" class="img-fluid rounded-3 img-style">
+        </div>
+        <div class="col-12 col-xxl-8 p-3 rounded-3 div-height d-flex align-items-center text-start overflow-auto fs-4 text-style">
+            This unique cabin has a wood burner, super king or twin beds. Arctic bedding, electric blankets, four hot water bottles and throws. 
+            A kitchenette, with a microwave, small fridge, sink, double gas camping hob with grill, kettle and toaster. 
+            Tastefully decorated with antiques. Attached is a private hot shower, composting toilet and fire pit.
+        </div>
+    </div>
+            
+            <div class="row m-0 py-3 row-style">
+                <div class="order-1 order-xxl-2 col-12 col-xxl-4 p-1 rounded-3 div-height d-flex justify-content-center">
+                    <img src="assets/img/gallery/639A8062.webp" alt="homepage image 2" class="img-fluid rounded-3 img-style">
+                </div>
+                <div class="order-2 order-xxl-1 col-12 col-xxl-8 p-3 rounded-3 div-height d-flex align-items-center text-start overflow-auto fs-4 text-style">
+                    Sleep with the wildlife of Dartmoor in an open sided cabin with curtains overlooking a spring fed swimming pond, and into ancient woodland frequented
+                    by Devon wildlife. You will hear more horses than cars on the distant mossy lane. There's a stream, ponds, waterfalls & bridges.
+                    Your hosts live out of sight down the valley.
+                </div>
+            </div>
+            <div class="row m-0 py-3 row-style">
+                <div class="col-12 col-xxl-4 p-1 rounded-3 div-height d-flex justify-content-center"> 
+                    <img src="assets/img/gallery/639A8075.webp" alt="homepage image 3" class="img-fluid rounded-3 img-style">
+                </div>
+                <div class="col-12 col-xxl-8 p-3 rounded-3 div-height d-flex align-items-center text-start overflow-auto fs-4 text-style">
+                    A 35 minute country walk from Ashburton and the famous Ashburton Cookery School; details of local walks, points of interest, pubs and restaurants 
+                    are available in the cabin. The composting toilet and hot shower are three steps from the cabin in a separate tent.
+                    Unlimited wood supplied free for the wood burner and fire pits.
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <script>
+        document.querySelectorAll('a[href="#book"]').forEach((bookLink) => {
+            bookLink.addEventListener('click', () => {
+                const targetButton = document.querySelector('#book .button');
+
+                if (!targetButton) {
+                    return;
+                }
+
+                window.setTimeout(() => {
+                    targetButton.classList.remove('button-flash');
+                    void targetButton.offsetWidth;
+                    targetButton.classList.add('button-flash');
+                }, 450);
+            });
+        });
+    </script>
+    <script src="assets/js/bootstrap.js"></script>
+</body>
+<footer role="contentinfo" id="book" class="mt-3">
+    <div class="row justify-content-center mb-3">
+        <div class="col-12 col-lg-6 p-3 text-center air-color rounded-3">
+            <a href="https://www.airbnb.co.uk/rooms/954945042915792526?check_in=2026-08-30&check_out=2026-09-04&location=coombe%20meadow&search_mode=regular_search&adults=1&children=0&infants=0&pets=0&source_impression_id=p3_1784632775_P3_ZmTHdiNIgp-ES&previous_page_section_name=1001&federated_search_id=0998790e-5adf-4369-b028-f626176b173d" target="_blank" class="no-underline button fs-3 text-white text-bold">Click Here to Book on Air BnB</a>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-6 p-3 text-center">
+            <a href="https://www.gavinbrown.info" class="gav-color no-underline" target="_blank">© gavinbrown.info</a>
+        </div>
+    </div>
+</footer>
+</html>
