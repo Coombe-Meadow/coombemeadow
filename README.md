@@ -13,7 +13,7 @@ The site is deployed on GitHub Pages and connected to a custom domain.
 
 ## Technology Stack
 
-- Bootsrap 5 - [Bootstrap 5.3.8 CSS & JS Libraries](https://getbootstrap.com/)
+- Bootstrap 5 - [Bootstrap 5.3.8 CSS & JS Libraries](https://getbootstrap.com/)
 - Google Lighthouse for performance and SEO testing
 - FreeConvert to convert images to WebP format - [FreeConvert](https://www.freeconvert.com/)
 - Convertio to convert images to WebP format - [Convertio](https://convertio.co/)
