@@ -12339,23 +12339,19 @@ footer, footer a {
   transform: translateY(-1px);
 }
 
-.glass-top-button {
-  display: inline-block;
-  color: #ffffff;
-  border: none;
-  border-radius: 0.9rem;
-  background: #347f4b;
-  box-shadow: none;
-  padding: 0.4rem 0.75rem;
-  transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+.back-to-top-link,
+.back-to-top-link:hover,
+.back-to-top-link:focus-visible,
+.back-to-top-link:active {
+  color: #000000;
+  text-decoration: none;
+  font-size: 0.9rem;
 }
 
-.glass-top-button:hover,
-.glass-top-button:focus-visible {
-  color: #ffffff;
-  background: #3f9b5b;
-  box-shadow: none;
-  transform: translateY(-1px);
+.top-arrow-icon {
+  margin-left: 0.25rem;
+  font-size: 2.1em;
+  line-height: 1;
 }
 
 .video-thumbnail-link {
