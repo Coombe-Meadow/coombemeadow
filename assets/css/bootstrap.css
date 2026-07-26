@@ -12289,7 +12289,7 @@ footer, footer a {
   display: block;
   width: 1.2rem;
   height: 2px;
-  background: currentColor;
+  background: #ffffff;
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
