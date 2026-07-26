@@ -37,7 +37,7 @@
     </nav>
 </header>
 <body class="web-width">
-    <div class="container-fluid b-0 mt-2">
+    <div id="gallery-top" class="container-fluid b-0 mt-2">
         <div class="row">
             <div class="col-12 col-md-6 col-xxl-4 gallery-item mb-2"><img src="assets/img/gallery/639A8058.webp" alt="gallery image 1" onclick="openLightbox(this.src)"></div>
             <div class="col-12 col-md-6 col-xxl-4 gallery-item mb-2"><img src="assets/img/gallery/639A8059.webp" alt="gallery image 2" onclick="openLightbox(this.src)"></div>
@@ -85,7 +85,12 @@
             <div class="col-12 col-md-6 col-xxl-4 gallery-item mb-2"><img src="assets/img/gallery/639A8216.webp" alt="gallery image 22" onclick="openLightbox(this.src)"></div>
             <div class="col-12 col-md-6 col-xxl-4 gallery-item mb-2"><img src="assets/img/gallery/639A8224.webp" alt="gallery image 23" onclick="openLightbox(this.src)"></div>
             <div class="col-12 col-md-6 col-xxl-4 gallery-item mb-2"><img src="assets/img/gallery/639A8232.webp" alt="gallery image 24" onclick="openLightbox(this.src)"></div>
-        </div>     
+        </div>
+        <div class="row justify-content-end mt-4 mb-2">
+            <div class="col-auto text-end">
+                <a href="#gallery-top" class="no-underline button glass-top-button f-roboto-mono fs-5 text-white text-bold">Back to Top</a>
+            </div>
+        </div>
     </div>      
     <!-- Lightbox Modal -->
     <div id="lightbox" class="lightbox" onclick="closeLightbox()">

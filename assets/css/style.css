@@ -106,6 +106,25 @@
 	transform: translateY(-1px);
 }
 
+.glass-top-button {
+	display: inline-block;
+	color: #ffffff;
+	border: none;
+	border-radius: 0.9rem;
+	background: #347f4b;
+	box-shadow: none;
+	padding: 0.55rem 1rem;
+	transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+}
+
+.glass-top-button:hover,
+.glass-top-button:focus-visible {
+	color: #ffffff;
+	background: #3f9b5b;
+	box-shadow: none;
+	transform: translateY(-1px);
+}
+
 .book-button-flash {
 	animation: book-button-flash 2.4s ease-in-out 3;
 }
