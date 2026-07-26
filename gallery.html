@@ -9,6 +9,7 @@
     <title>Coombe Meadow Cabin</title>
     <!-- bootstrap css & custom css -->
      <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
      <link rel="canonical" href="https://example.com"/> <!--PUT ACTUAL ADDRESS IN HERE WHEN KNOWN --> 
      <!-- google fonts -->
     <link rel="preconnect" href="https://googleapis.com">
@@ -20,26 +21,20 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 </head>
 <header class="mb-3">
-    <nav class="navbar navbar-expand-xxl bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand f-roboto-mono" href="#">Coombe Meadow Cabin</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link f-roboto-mono" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active f-roboto-mono" aria-current="page" href="gallery.html">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link f-roboto-mono" aria-current="page" href="#book">Book</a>
-        </li>
-    </div>
-  </div>
-</nav>
+    <nav class="glass-nav" aria-label="Primary navigation">
+        <a class="glass-nav-brand f-roboto-mono" href="index.html">Coombe Meadow Cabin</a>
+        <input class="glass-nav-menu-toggle" type="checkbox" id="nav-toggle" aria-hidden="true">
+        <label class="glass-nav-menu-button" for="nav-toggle" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <ul class="glass-nav-links">
+            <li><a class="f-roboto-mono" href="index.html">Home</a></li>
+            <li><a class="f-roboto-mono active" aria-current="page" href="gallery.html">Gallery</a></li>
+            <li><a class="f-roboto-mono" href="#book">Book</a></li>
+        </ul>
+    </nav>
 </header>
 <body class="web-width">
     <div class="container-fluid b-0 mt-2">
