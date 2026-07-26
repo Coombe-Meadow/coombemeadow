@@ -113,7 +113,7 @@
 	border-radius: 0.9rem;
 	background: #347f4b;
 	box-shadow: none;
-	padding: 0.55rem 1rem;
+	padding: 0.4rem 0.75rem;
 	transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
 }
 
