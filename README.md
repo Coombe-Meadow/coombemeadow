@@ -1,8 +1,17 @@
-Intro
+# Coombe Meadow Cabin Website
 
-A landing page built to help with SEO for a holiday property primarily hosted on Air BnB. Deployed using a custom domain with Github Pages hosting the site.
+A static landing site designed to support SEO and direct booking visibility for a holiday property that is primarily listed on Air BnB.
 
-Tech
+The site is deployed on GitHub Pages and connected to a custom domain.
+
+## Project Goals
+
+- Improve discoverability in search results with clear, indexable page content.
+- Provide a fast-loading, mobile-friendly experience.
+- Showcase the cabin and grounds with an image-led gallery.
+- Direct visitors to the main booking route.
+
+## Technology Stack
 
 - Bootsrap 5 - [Bootstrap 5.3.8 CSS & JS Libraries](https://getbootstrap.com/)
 - Google Lighthouse for performance and SEO testing
@@ -15,14 +24,54 @@ Tech
 - Favicon icon generator - [favicon.io](https://favicon.io/)
 - testing a sites responsive - [amiresponsive](https://amiresponsive.co.uk/)
 
-Build
+## Build and Deployment Detail
 
-The build utilises HTML5, plus CSS and JS from Bootstrap with additional custom code where needed. 
-The site is fully commented and conforms to the latest standards in design. Not all images in the gallery are being displayed. 
-This allows for some image swapping to freshen up the gallery if needed.
+This project is intentionally simple: it is a static site build (no bundler, no framework compile step).
 
+### Build Approach
 
-Testing
+- Core pages are authored directly in HTML5.
+- Styling is provided by Bootstrap plus custom CSS.
+- JavaScript is used for lightweight page interactions only.
+- Images are optimized to WebP where possible for smaller payloads.
+
+### Page and Asset Structure
+
+- Main pages: home, gallery, and fallback/error page.
+- Shared assets:
+	- CSS (Bootstrap + custom styles)
+	- JS (Bootstrap + custom script)
+	- Images and gallery media
+- SEO helpers include metadata, robots directives, and canonical tags.
+
+### Content Build Workflow
+
+1. Update page content in the relevant HTML files.
+2. Add/replace media in the gallery assets folder.
+3. Convert and compress imagery using:
+	 - [FreeConvert](https://www.freeconvert.com/)
+	 - [Convertio](https://convertio.co/)
+	 - [Image Compressor](https://imagecompressor.com/)
+4. Validate responsive behavior and UX before release.
+
+### Local Verification
+
+- Open pages locally in-browser for quick checks.
+- Confirm navigation, links, gallery behavior, and media rendering.
+- Verify mobile layout behavior using browser emulation and real devices.
+
+### Release Flow
+
+- Commit and push to the repository.
+- GitHub Pages publishes the static site.
+- Domain routing is managed via [Squarespace](https://www.squarespace.com/).
+
+## Gallery Content Strategy
+
+Not all gallery assets are displayed at once by design.
+This makes it easy to rotate visual content over time and keep the gallery fresh.
+
+## Testing
 
 Basic site responsiveness testing completed using Google Lighthouse & amiresponsive.co.uk
 
@@ -32,8 +81,7 @@ Basic site responsiveness testing completed using Google Lighthouse & amirespons
 
 Further testing has been carried out using an iPhone 17, iPad Air M4 and an Android Invens Note 15p
 
-Acknowledgements
+## Acknowledgements
 
 - [Reddit subreddit, useful coding advice](https://www.reddit.com/r/webdev/)
-
 - [Stack Overflow, useful coding database](https://stackoverflow.com/questions)
