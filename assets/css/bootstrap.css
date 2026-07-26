@@ -12413,6 +12413,12 @@ footer, footer a {
   }
 }
 
+@media (max-width: 1399.98px) {
+  .single-column-text {
+    font-size: 1rem !important;
+  }
+}
+
 @media (max-width: 991.98px) {
   .glass-nav {
     top: 0.5rem;
