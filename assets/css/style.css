@@ -164,11 +164,11 @@
 
 	.glass-nav-links {
 		position: absolute;
-		left: 0;
 		right: 0;
+		left: auto;
 		top: calc(100% + 0.4rem);
-		margin: 0 auto;
-		width: auto;
+		margin: 0;
+		width: 33vw;
 		box-sizing: border-box;
 		border-radius: 0.9rem;
 		border: 1px solid rgba(255, 255, 255, 0.4);
